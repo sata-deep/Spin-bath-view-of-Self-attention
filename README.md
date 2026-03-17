@@ -74,8 +74,7 @@ The measured model-level quantity is the actual difference in GPT-2 next-token l
 
 $$
 \Delta L_{\mathrm{actual}}
-=
-\ell_{\mathrm{good}} - \ell_{\mathrm{bad}}.
+=\ell_{\mathrm{good}} - \ell_{\mathrm{bad}}.
 $$
 
 The central empirical question is whether heads whose internal geometry predicts a large positive or negative $\Delta L_{\mathrm{theory}}$ also show corresponding changes in $\Delta L_{\mathrm{actual}}$.
