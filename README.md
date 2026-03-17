@@ -62,11 +62,12 @@ $$
 
 For a "good" continuation token embedding $s_{\mathrm{good}}$ and a competing "bad" token embedding $s_{\mathrm{bad}}$, the theoretical head-level preference used throughout this repository is
 
-$$ \Delta L_{\mathrm{theory}} = N_0 \cdot s_{\mathrm{good}}$$
--
 $$
+\Delta L_{\mathrm{theory}}
+= N_0 \cdot s_{\mathrm{good}} -
 N_0 \cdot s_{\mathrm{bad}}.
 $$
+
 
 The measured model-level quantity is the actual difference in GPT-2 next-token logits,
 
