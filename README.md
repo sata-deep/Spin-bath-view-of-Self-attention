@@ -30,7 +30,7 @@ $$
 S = \{s_1, s_2, \dots, s_T\}, \qquad s_t \in \mathbb{R}^{d_{\mathrm{model}}},
 $$
 
-each attention head defines projected query, key, and value states
+Each attention head defines projected query, key, and value states
 
 $$
 Q = S W_Q, \qquad K = S W_K, \qquad V = S W_V.
@@ -62,11 +62,9 @@ $$
 
 For a "good" continuation token embedding $s_{\mathrm{good}}$ and a competing "bad" token embedding $s_{\mathrm{bad}}$, the theoretical head-level preference used throughout this repository is
 
-$$
-\Delta L_{\mathrm{theory}}
-=
-N_0 \cdot s_{\mathrm{good}}
+$$ \Delta L_{\mathrm{theory}} = N_0 \cdot s_{\mathrm{good}}$$
 -
+$$
 N_0 \cdot s_{\mathrm{bad}}.
 $$
 
