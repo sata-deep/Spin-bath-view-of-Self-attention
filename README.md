@@ -201,8 +201,3 @@ If this code, analysis, or any derived results are useful in your work, please c
 
 **Bhattacharjee & Lee, Phys. Rev. E 113, 015308 (2026).**
 
-If relevant for your workflow, you may also cite the repository manuscript included here:
-
-- *Testing the spin-bath view of self-attention: A Hamiltonian analysis of GPT-2 Transformer*, `arXiv:2507.00683`.
-
-Please keep the citation request with any reuse of the codebase, derivative scripts, or reproduced figures.
