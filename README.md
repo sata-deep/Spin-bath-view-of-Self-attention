@@ -8,6 +8,8 @@ This repository contains compact, reproducible experiments for testing the spin-
 
 This repository contains compact, reproducible experiments for testing the spin-bath / Hamiltonian view of self-attention developed in the accompanying work on GPT-2. The code extracts head-wise query, key, value, and output projections, builds the corresponding theoretical logit-gap prediction, and compares it with the model's observed next-token preference on a set of factual recall prompts.
 
+# The YouTube video explaining the work:# https://youtu.be/oofTMnX9LZ0?si=k0jUVlLIzhDTWLUG
+
 The current scripts are designed to reproduce the main qualitative analyses discussed in the paper bundle included here, especially the comparison between:
 
 $$
