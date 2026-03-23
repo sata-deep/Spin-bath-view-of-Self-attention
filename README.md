@@ -1,4 +1,4 @@
-# Spin-bath-view-of-Self-attention
+# Testing  The Spin-bath view of Self-attention
 This repository contains compact, reproducible experiments for testing the spin-bath / Hamiltonian view of self-attention developed in the accompanying work on GPT-2 as discussed in the paper: https://doi.org/10.1103/rkyb-d7d2
 
 <img width="1853" height="979" alt="image" src="https://github.com/user-attachments/assets/5e9c9fb5-9443-44ed-beaf-941f21f0e2eb" />
